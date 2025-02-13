@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 725e9b1e7ce0ba148b2d12a38c5e02ad, type: 3}
-  m_Name: "\uD39C"
+  m_Script: {fileID: 11500000, guid: a3bc16221ae51f4478ae2f1b38edbe1e, type: 3}
+  m_Name: New Audio Event
   m_EditorClassIdentifier: 
-  gameObject: {fileID: 8752377281455144562, guid: 5d6c7b3d5c9723c438f272e07dce6792, type: 3}
-  id: 1
-  price: 200
-  description: "\uD544\uAE30\uC6A9\uB3C4\uAD6C"

@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 
 [Serializable]
+[CreateAssetMenu]
 public class AudioEvent : ScriptableObject
 {
     public event Action<string> OnPlay;
@@ -10,6 +11,6 @@ public class AudioEvent : ScriptableObject
     {
         if (OnPlay != null)
             OnPlay.Invoke(name);
-        // Invoke´Â ÀÌº¥Æ® ½ÇÇà¿ë ÇÔ¼ö
+        // InvokeëŠ” ì´ë²¤íŠ¸ ì‹¤í–‰ìš© í•¨ìˆ˜
     }
 }
