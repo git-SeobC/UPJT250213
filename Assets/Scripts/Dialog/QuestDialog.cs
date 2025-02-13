@@ -28,7 +28,7 @@ public class QuestDialog : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !dialogPanel.active)
+        if (other.CompareTag("Player") && !dialogPanel.activeInHierarchy)
         {
             dialogPanel.SetActive(true);
             DisplayNextDialog();
