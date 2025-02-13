@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ItemSample : MonoBehaviour
 {
-    // ¾ÆÀÌÅÛ µî·Ï
+    // ì•„ì´í…œ ë“±ë¡
     public Item item;
 
     // Update is called once per frame
@@ -17,8 +17,8 @@ public class ItemSample : MonoBehaviour
 
     private void ItemInfo()
     {
-        Debug.Log(item.name);       // ½ºÅ©¸³ÅÍºí ¿ÀºêÁ§Æ®¸¦ ¸¸µé ¶§ ºÙ¿©ÁØ ÀÌ¸§
-        Debug.Log(item.id);         // ½ºÅ©¸³ÅÍºí ¿ÀºêÁ§Æ®¿¡¼­ ¼³Á¤ÇÑ °ªµé
+        Debug.Log(item.name);       // ìŠ¤í¬ë¦½í„°ë¸” ì˜¤ë¸Œì íŠ¸ë¥¼ ë§Œë“¤ ë•Œ ë¶™ì—¬ì¤€ ì´ë¦„
+        Debug.Log(item.id);         // ìŠ¤í¬ë¦½í„°ë¸” ì˜¤ë¸Œì íŠ¸ì—ì„œ ì„¤ì •í•œ ê°’ë“¤
         Debug.Log(item.price);
         Debug.Log(item.description);
     }
