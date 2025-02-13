@@ -8,10 +8,6 @@ public class CharacterMove : MonoBehaviour
     public float speed = 5f;
     private Rigidbody rb;
 
-    //private GameObject titleText;
-    //private GameObject goalText;
-    //private GameObject descriptionText;
-
     void Start()
     {
         rb = GetComponent<Rigidbody>();

@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questType: 0
   money: 1000
-  exp: 30
-  monsterGoal: 5
-  monsterNow: 5
-  title: "\uBC40 \uC7A1\uC774"
-  goal: "\uBC40 5\uB9C8\uB9AC"
-  description: "\uBC40 5\uB9C8\uB9AC\uB97C \uC7A1\uC73C\uC2DC\uC624"
+  exp: 10
+  itemGoal: 5
+  itemCount: 5
+  title: "\uBE68\uAC04\uC0C1\uC790 \uBAA8\uC73C\uAE30"
+  goal: "\uBE68\uAC04\uC0C1\uC790 5\uAC1C \uBAA8\uC73C\uAE30"
+  description: "\uBE68\uAC04\uC0C1\uC790\uB97C 5\uAC1C \uBAA8\uC544\uC624\uC2DC\uC624"
   success: 1
   progress: 0

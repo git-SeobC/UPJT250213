@@ -20,8 +20,8 @@ public class Quest : ScriptableObject
     public int money;
     public float exp;
 
-    public int monsterGoal;
-    public int monsterNow;
+    public int itemGoal;
+    public int itemCount;
 
     [Header("퀘스트 정보")]
     public string title;
@@ -36,8 +36,8 @@ public class Quest : ScriptableObject
 //[CreateAssetMenu(fileName = "Requirement", menuName = "Quest/Requirement")]
 //public class Requirement : ScriptableObject
 //{
-//    public int monsterGoal;
-//    public int monsterNow;
+//    public int itemGoal;
+//    public int itemCount;
 //}
 
 
