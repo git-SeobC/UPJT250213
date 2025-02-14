@@ -10,10 +10,10 @@ public class PickupTrigger : MonoBehaviour
         currentQuest = Resources.Load<Quest>("Quest");
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
         if (hasTriggered) return;
-        if (other.CompareTag("Player")) // 플레이어가 닿았을 때
+        if (collision.gameObject.CompareTag("Player")) // 플레이어가 닿았을 때
         {
             hasTriggered = true;
             currentQuest.itemCount += 1;
